@@ -16,16 +16,15 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '7.0'
+    - name: Install MSBuild tools
+      run: |
+        choco install microsoft-build-tools --no-progress --yes
 
     - name: Restore dependencies
-      run: dotnet restore Curs/Curs.sln
+      run: nuget restore Curs/Curs.sln
 
     - name: Build project
-      run: dotnet build Curs/Curs.sln --no-restore --configuration Release
+      run: msbuild Curs/Curs.sln /p:Configuration=Release /p:Platform="Any CPU"
 
-    - name: Check code formatting
-      run: dotnet format --check
+    - name: Check code formatting (optional)
+      run: echo "No automatic format check available for .NET Framework."
