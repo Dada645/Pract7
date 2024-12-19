@@ -1,0 +1,68 @@
+﻿<Page x:Class="Curs.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Curs"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Roles">
+
+    <Page.Resources>
+        <ControlTemplate x:Key="ComboBoxToggleButton" TargetType="ToggleButton">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Border x:Name="Border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0,0,0,1" CornerRadius="2" Padding="5"/>
+                <Path x:Name="Arrow" Grid.Column="1" Fill="White" Stretch="Uniform" Width="8" Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Data="M 0 0 L 4 4 L 8 0 Z"/>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ComboBoxTextBox" TargetType="TextBox">
+            <Border x:Name="PART_ContentHost" Focusable="False" Background="Transparent" BorderBrush="Transparent" BorderThickness="0,0,0,1" CornerRadius="2"/>
+        </ControlTemplate>
+
+        <Style x:Key="AuthButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#3B3F51"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="10,5"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="130"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="buttonBorder" Background="{TemplateBinding Background}" CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="buttonBorder" Property="Background" Value="#666666"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#002E2E2E" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto" MinHeight="59.62"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Главная страница" FontSize="18" FontWeight="Bold" Foreground="White" Margin="10,10,10,10"/>
+
+        <Canvas x:Name="ClientEmployeePieChart" Grid.Row="1" Margin="10" Loaded="ClientEmployeePieChart_Loaded" />
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10">
+            <Button Content="Резервное копирование базы данных" Width="250" Click="Backup_Click" Style="{StaticResource AuthButtonStyle}" Margin="5" FontSize="13"/>
+            <Button Content="Восстановление базы данных" Width="250" Click="Restore_Click" Style="{StaticResource AuthButtonStyle}" Margin="5" FontSize="13"/>
+        </StackPanel>
+    </Grid>
+</Page>

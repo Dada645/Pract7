@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Curs.Accounts" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQACAABAACBCgAAIAAQAAAAAAAAIAAACA=</HashCode>
+      <FileName>Accounts.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Admin" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAQAAAAAAAAAAQAAAQgAA=</HashCode>
+      <FileName>Admin.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Agent" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAQAAAAAAAAAAQAAAQgAA=</HashCode>
+      <FileName>Agent.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Claims" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAQACAAIAAABAAAAAAAACAAAAAAAIAQAiQ=</HashCode>
+      <FileName>Claims.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Client" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAQAAAAAAAAAAQAAAQgAA=</HashCode>
+      <FileName>Client.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.ClientAgents" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAQACAABQAIBAAgAAAAAIAEAAAAAIAAACA=</HashCode>
+      <FileName>ClientAgents.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Clients" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgEAAAQACAAAAAKBAAgAIAIAAAABAAAAIAQACA=</HashCode>
+      <FileName>Clients.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.ClientsInfo" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientsInfo.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.158" />
+  </Class>
+  <Class Name="Curs.Employees" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgEAAAQACAAAAAaBAAgAIAAAAAAAAAYAICAACA=</HashCode>
+      <FileName>Employees.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAAEACAAAgQIAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Payouts" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQQACACAAAAVAAAAAAAAAgAAAQAAIAAACA=</HashCode>
+      <FileName>Payouts.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Policies" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgAAAAQAGAAIAAKBAhgAIAAAAAAABAQAIAAACA=</HashCode>
+      <FileName>Policies.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.PolicyTypes" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQACgAQAAAAAAAABAAAIAAQAAAAAAAAAIAAACA=</HashCode>
+      <FileName>PolicyTypes.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.PTM" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQAAAAQACAAIAAABAAAAAAQAAAAAQAABoAAACA=</HashCode>
+      <FileName>PTM.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Registrations" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQAAQAAEACAAAgQIAAAAAAAACAAIAQAAA=</HashCode>
+      <FileName>Registrations.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Roles" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAGAAQCAAAAAADBAAAAAAAAAAAAAAAAIAACCA=</HashCode>
+      <FileName>Roles.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.Transactions" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAQACAACAAABAAgAEAAAAAAAAAACIAAgCA=</HashCode>
+      <FileName>Transactions.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Curs.ClaimStatusHistory">
+    <Position X="4" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQACAgAAAABAAABAAEAAIAAAAACIAAACA=</HashCode>
+      <FileName>ClaimStatusHistory.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Curs.AuthenticatedClients">
+    <Position X="4.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAABAAAAABAAAAABAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AuthenticatedClients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataExporter">
+    <Position X="6" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>DataExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataImporter">
+    <Position X="7.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAAABAAQAA=</HashCode>
+      <FileName>DataImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger">
+    <Position X="4.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PasswordHelper">
+    <Position X="6" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PasswordHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Validator">
+    <Position X="7.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoEDAQABAgAAAAAIICIQAIiCAAAoAgAYKgCIAABAA=</HashCode>
+      <FileName>Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
