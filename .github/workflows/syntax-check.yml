@@ -18,13 +18,13 @@ jobs:
 
     - name: Install MSBuild tools
       run: |
-        choco install microsoft-build-tools --version=16.11.2 --no-progress --yes
+        choco install microsoft-build-tools --no-progress --yes
 
     - name: Restore dependencies
-      run: nuget restore Curs/Curs.sln # Используйте команду nuget для восстановления зависимостей
+      run: nuget restore Curs/Curs.sln
 
     - name: Build project
-      run: msbuild Curs/Curs.sln /p:Configuration=Release /p:Platform="Any CPU" # Сборка с помощью MSBuild
+      run: msbuild Curs/Curs.sln /p:Configuration=Release /p:Platform="Any CPU"
 
     - name: Check code formatting (optional)
       run: echo "No automatic format check available for .NET Framework."
